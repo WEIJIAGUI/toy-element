@@ -76,7 +76,7 @@ importers:
         version: registry.npmmirror.com/async-validator@4.2.5
     devDependencies:
       '@vitest/coverage-v8':
-        specifier: ^1.6.0
+        specifier: ^1.4.0
         version: registry.npmmirror.com/@vitest/coverage-v8@1.6.0(vitest@1.6.0)
       '@vue/test-utils':
         specifier: ^2.4.6
@@ -103,7 +103,7 @@ importers:
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.0.4
-        version: registry.npmmirror.com/@vitejs/plugin-vue@5.0.4(vite@5.2.0)(vue@3.4.21)
+        version: registry.npmmirror.com/@vitejs/plugin-vue@5.0.4(vite@5.2.12)(vue@3.4.21)
 
   packages/theme: {}
 
@@ -1334,7 +1334,7 @@ packages:
       - supports-color
     dev: true
 
-  registry.npmmirror.com/@vitejs/plugin-vue@5.0.4(vite@5.2.0)(vue@3.4.21):
+  registry.npmmirror.com/@vitejs/plugin-vue@5.0.4(vite@5.2.12)(vue@3.4.21):
     resolution: {integrity: sha512-WS3hevEszI6CEVEx28F8RjTX97k3KsrcY6kvTg7+Whm5y3oYvcqzVeGCU3hxSAn4uY2CLCkeokkGKpoctccilQ==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@vitejs/plugin-vue/-/plugin-vue-5.0.4.tgz}
     id: registry.npmmirror.com/@vitejs/plugin-vue/5.0.4
     name: '@vitejs/plugin-vue'
@@ -1344,7 +1344,7 @@ packages:
       vite: ^5.0.0
       vue: ^3.2.25
     dependencies:
-      vite: registry.npmmirror.com/vite@5.2.0(@types/node@20.14.0)
+      vite: registry.npmmirror.com/vite@5.2.12(@types/node@20.14.0)
       vue: registry.npmmirror.com/vue@3.4.21(typescript@5.4.5)
     dev: true
 
@@ -3670,45 +3670,6 @@ packages:
       - sugarss
       - supports-color
       - terser
-    dev: true
-
-  registry.npmmirror.com/vite@5.2.0(@types/node@20.14.0):
-    resolution: {integrity: sha512-xMSLJNEjNk/3DJRgWlPADDwaU9AgYRodDH2t6oENhJnIlmU9Hx1Q6VpjyXua/JdMw1WJRbnAgHJ9xgET9gnIAg==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/vite/-/vite-5.2.0.tgz}
-    id: registry.npmmirror.com/vite/5.2.0
-    name: vite
-    version: 5.2.0
-    engines: {node: ^18.0.0 || >=20.0.0}
-    hasBin: true
-    peerDependencies:
-      '@types/node': ^18.0.0 || >=20.0.0
-      less: '*'
-      lightningcss: ^1.21.0
-      sass: '*'
-      stylus: '*'
-      sugarss: '*'
-      terser: ^5.4.0
-    peerDependenciesMeta:
-      '@types/node':
-        optional: true
-      less:
-        optional: true
-      lightningcss:
-        optional: true
-      sass:
-        optional: true
-      stylus:
-        optional: true
-      sugarss:
-        optional: true
-      terser:
-        optional: true
-    dependencies:
-      '@types/node': registry.npmmirror.com/@types/node@20.14.0
-      esbuild: registry.npmmirror.com/esbuild@0.20.2
-      postcss: registry.npmmirror.com/postcss@8.4.38
-      rollup: registry.npmmirror.com/rollup@4.18.0
-    optionalDependencies:
-      fsevents: registry.npmmirror.com/fsevents@2.3.3
     dev: true
 
   registry.npmmirror.com/vite@5.2.12(@types/node@20.14.0):

@@ -2,14 +2,15 @@
  * @Author: weijiagui 18322393187@163.com
  * @Date: 2024-06-03 21:28:17
  * @LastEditors: weijiagui 18322393187@163.com
- * @LastEditTime: 2024-06-03 22:34:27
+ * @LastEditTime: 2024-06-05 20:47:19
  * @FilePath: \element\packages\play\src\App.vue
  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
 -->
 <script setup lang="ts"></script>
 
 <template>
-  <wei-button></wei-button>
+  <wei-button type="button">nihao</wei-button>
+  <!-- <component :is="button" class="asdfs">nihao</component> -->
 </template>
 
 <style scoped>
